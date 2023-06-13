@@ -1,0 +1,10 @@
+.navContainer {
+  background-color: #f6f9ff;
+}
+.navlink {
+  background-color: transparent;
+  transition: 0.8s all;
+}
+.navlink:hover {
+  background-color: #fbfbfb;
+}

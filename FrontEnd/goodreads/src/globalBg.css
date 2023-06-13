@@ -1,0 +1,9 @@
+body {
+    background-image: url('./styles/images/header3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+table{
+    background-color: white;
+}

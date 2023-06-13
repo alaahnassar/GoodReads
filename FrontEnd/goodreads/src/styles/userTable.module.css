@@ -1,0 +1,48 @@
+/* :root {
+  --star-size: 30px;
+  --star-color: #fff;
+  --star-background: #fc0;
+}
+
+.Stars {
+  --percent: calc(var(--rating) / 5 * 100%);
+
+  display: inline-block;
+  font-size: var(--star-size);
+
+  &::before {
+    content: "★★★★★";
+    letter-spacing: 3px;
+    background: linear-gradient(
+      90deg,
+      var(--star-background) var(--percent),
+      var(--star-color) var(--percent)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+} */
+
+.bg {
+  border-color: #f6f9ff;
+}
+.shadow {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  padding: 25px 40px;
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-color: #f6f9ff;
+  border-width: 0;
+}
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: black;
+}
